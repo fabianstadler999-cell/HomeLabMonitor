@@ -1,0 +1,5 @@
+-keep class com.jcraft.jsch.** { *; }
+-dontwarn org.apache.logging.log4j.**
+-dontwarn org.slf4j.**
+-dontwarn org.newsclub.net.unix.**
+-dontwarn com.sun.jna.**
